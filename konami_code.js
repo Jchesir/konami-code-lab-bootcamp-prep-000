@@ -6,8 +6,8 @@ document.body.addEventListener('keydown', function (letter){})
 
 if (key === code[index]) {
     index++;
-     if (index === alphabet.length) {
-      alert("Hurray!");
+     if (index === code.length) {
+      alert();
  
       index = 0;
     }
